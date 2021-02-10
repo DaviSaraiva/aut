@@ -1,0 +1,137 @@
+
+Request: GET / at Wed Feb 10 2021 09:45:25 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+{
+	"message": "Hellow Word"
+}
+Response: 200 3.482 ms 
+
+Request: POST /session at Wed Feb 10 2021 09:45:42 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"email": "loginteste@gmail.com",
+	"password": "123456"
+}
+Response Body:
+{
+	"id": 12,
+	"name": "login",
+	"email": "loginteste@gmail.com",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTYxMjk2MTE0MiwiZXhwIjoxNjEzMDQ3NTQyfQ.UpaeVffIvn5Ocvax7ZHd8GOzkzbLVJfNF6K3m6g2vZk"
+}
+Response: 200 321.398 ms 
+
+Request: GET /listuser at Wed Feb 10 2021 09:48:40 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Davi saraiva barros",
+		"email": "saraivadavi331@gmail.com",
+		"password": "$2b$10$uyUcpHMFqnZnpujOGRMbN.rJAtEcMRNcUiHvLJdG.ZmOKqAESQ8Ti"
+	},
+	{
+		"id": 2,
+		"name": "Marcelo ricardo",
+		"email": "marceloteste@gmail.com",
+		"password": "$2b$10$ImH2pxbdMbMQtNHvfdUERuXrhRK7IVKh2dXWfeD2q9eEhZCScyk7."
+	},
+	{
+		"id": 3,
+		"name": "Marcelo ricardo",
+		"email": "marceloteste@gmail.com",
+		"password": "$2b$10$AdW9F9J3FqHhV3qFNiEk7uH1AqCzNkpwKNkuWEGzveu1xKHYT2JEy"
+	},
+	{
+		"id": 4,
+		"name": "Kairo herege",
+		"email": "Kairoherege@gmail.com",
+		"password": "$2b$10$Bw/toZPIbj1xhL686.wEreWp2moua.4h3JLqa7SJ..864wv01UrrK"
+	},
+	{
+		"id": 5,
+		"name": "Davi teste",
+		"email": "teste@gmail.com",
+		"password": "$2b$10$4p6sv8jeqXrl9kALRVSfBuBd94EVFcnMVpvKOwvLWfqxZ4zN70c0y"
+	},
+	{
+		"id": 6,
+		"name": "Teste da silva",
+		"email": "teste20@gmail.com",
+		"password": "$2b$10$bfOa18aCiyLPXMWTQt6h9usZbsCMTPwz98Ww2iZi/45kMHenI.3dy"
+	},
+	{
+		"id": 7,
+		"name": "Shaolin Matador",
+		"em
+...
+Response: 200 170.307 ms 
+
+Request: GET /listuser at Wed Feb 10 2021 09:48:59 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+{
+	"message": "token invalido"
+}
+Response: 401 1.042 ms 
+
+Request: GET /listuser at Wed Feb 10 2021 09:50:29 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Davi saraiva barros",
+		"email": "saraivadavi331@gmail.com",
+		"password": "$2b$10$uyUcpHMFqnZnpujOGRMbN.rJAtEcMRNcUiHvLJdG.ZmOKqAESQ8Ti"
+	},
+	{
+		"id": 2,
+		"name": "Marcelo ricardo",
+		"email": "marceloteste@gmail.com",
+		"password": "$2b$10$ImH2pxbdMbMQtNHvfdUERuXrhRK7IVKh2dXWfeD2q9eEhZCScyk7."
+	},
+	{
+		"id": 3,
+		"name": "Marcelo ricardo",
+		"email": "marceloteste@gmail.com",
+		"password": "$2b$10$AdW9F9J3FqHhV3qFNiEk7uH1AqCzNkpwKNkuWEGzveu1xKHYT2JEy"
+	},
+	{
+		"id": 4,
+		"name": "Kairo herege",
+		"email": "Kairoherege@gmail.com",
+		"password": "$2b$10$Bw/toZPIbj1xhL686.wEreWp2moua.4h3JLqa7SJ..864wv01UrrK"
+	},
+	{
+		"id": 5,
+		"name": "Davi teste",
+		"email": "teste@gmail.com",
+		"password": "$2b$10$4p6sv8jeqXrl9kALRVSfBuBd94EVFcnMVpvKOwvLWfqxZ4zN70c0y"
+	},
+	{
+		"id": 6,
+		"name": "Teste da silva",
+		"email": "teste20@gmail.com",
+		"password": "$2b$10$bfOa18aCiyLPXMWTQt6h9usZbsCMTPwz98Ww2iZi/45kMHenI.3dy"
+	},
+	{
+		"id": 7,
+		"name": "Shaolin Matador",
+		"em
+...
+Response: 200 127.815 ms 
+
+Request: POST /users at Wed Feb 10 2021 09:52:11 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"name": "login de teste",
+	"email": "testetesteteste@gmail.com",
+	"password": "123456789"
+}
+Response Body:
+{
+	"name": "login de teste",
+	"email": "testetesteteste@gmail.com",
+	"password": "$2b$10$ZM.pIe4MdHdNKe5TqgXFteVJgtZ2jKGfO8ndZbWp/fCeAyTPDVoV.",
+	"id": 13
+}
+Response: 200 312.981 ms 

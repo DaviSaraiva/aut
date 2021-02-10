@@ -1,0 +1,105 @@
+{"message":"Servidor rodando na porta 5555","level":"info"}
+{"message":"[object Object] Login feito","level":"info"}
+{"message":"Servidor rodando na porta 5555","level":"info"}
+[2021-02-09T14:37:45.327Z] [info] [Servidor rodando na porta 5555]
+[2021-02-09T14:37:49.396Z] [info] [[object Object] Login]
+[2021-02-09T14:38:11.355Z] [info] [Servidor rodando na porta 5555]
+[2021-02-09T14:38:20.344Z] [info] [Login]
+2021-02-09T14:46:17.476Z] [info] [Servidor rodando na porta 5555]
+2021-02-09T14:46:22.288Z info] [Servidor rodando na porta 5555]
+2021-02-09T14:46:31.256Z info Servidor rodando na porta 5555
+2021-02-09T14:46:39.880Z info Login
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T14:51:08.961Z"}
+{"message":"Login","level":"info","timestamp":"2021-02-09T14:51:13.858Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T14:51:42.602Z"}
+{"message":"Login","level":"info","timestamp":"2021-02-09T14:51:56.532Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T14:52:46.251Z"}
+{"message":"[object Object]Login com sucesso","level":"info","timestamp":"2021-02-09T14:52:54.644Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:04:19.405Z"}
+{"message":"rota principal ","level":"info","timestamp":"2021-02-09T15:04:26.932Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:04:57.515Z"}
+{"message":"usuario não encontrado","level":"error","timestamp":"2021-02-09T15:05:11.412Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:05:36.046Z"}
+{"message":"Login feito com sucesso","level":"info","timestamp":"2021-02-09T15:05:37.518Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:09:24.845Z"}
+{"message":"rota principal ","level":"info","timestamp":"2021-02-09T15:09:26.372Z"}
+{"message":"[object Object] Login feito com sucesso","level":"info","timestamp":"2021-02-09T15:09:31.596Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:10:13.863Z"}
+{"message":"undefined Login feito com sucesso","level":"info","timestamp":"2021-02-09T15:10:15.347Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:10:34.034Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:10:59.794Z"}
+{"message":"rota principal ","level":"info","timestamp":"2021-02-09T15:11:06.247Z"}
+{"message":"[object Object] Login feito com sucesso","level":"info","timestamp":"2021-02-09T15:11:13.012Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:11:38.358Z"}
+{"message":"[object Object] Login feito com sucesso","level":"info","timestamp":"2021-02-09T15:11:38.958Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:11:57.617Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:17:11.652Z"}
+{"message":"[object Object]Login feito com sucesso","level":"info","timestamp":"2021-02-09T15:17:14.281Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:18:13.287Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:18:46.658Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:20:36.776Z"}
+{"message":"rota principal ","level":"info","timestamp":"2021-02-09T15:20:51.026Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:22:46.559Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:23:25.006Z"}
+{"message":"[object Object]","level":"info","timestamp":"2021-02-09T15:23:28.503Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:24:09.176Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:24:22.146Z"}
+{"message":"Servidor rodando na porta 5555","level":"info"}
+{"message":"rota principal ","level":"info"}
+{"message":"[object Object]","level":"info"}
+{"message":"Servidor rodando na porta 5555","level":"info"}
+{"message":"rota principal ","level":"info"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:25:49.041Z"}
+{"message":"[object Object]","level":"info","timestamp":"2021-02-09T15:26:29.188Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:32:46.524Z"}
+{"message":"rota principal ","level":"info","timestamp":"2021-02-09T15:32:46.669Z"}
+{"message":"usuario não encontrado","level":"error","timestamp":"2021-02-09T15:32:56.458Z"}
+{"message":"Login feito com sucesso!","level":"info","timestamp":"2021-02-09T15:33:10.212Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:37:53.489Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:38:08.378Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:38:33.454Z"}
+{"message":"usuario não encontrado","level":"error","timestamp":"2021-02-09T15:38:40.259Z"}
+{"message":"Login feito com sucesso!","level":"info","timestamp":"2021-02-09T15:38:48.664Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:41:45.602Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:42:52.953Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:45:02.059Z"}
+{"message":"usuario não encontrado","level":"error","timestamp":"2021-02-09T15:45:17.524Z"}
+{"message":"Servidor rodando na porta 5555","level":"info","timestamp":"2021-02-09T15:45:50.977Z"}
+2021-02-09T18:41:40.646Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:41:43.894Z [32minfo[39m loginteste@gmail.com
+2021-02-09T18:42:35.993Z [32minfo[39m loginteste@gmail.com
+2021-02-09T18:42:54.791Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:43:03.975Z [32minfo[39m loginteste@gmail.com
+2021-02-09T18:43:18.714Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:43:29.832Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:43:40.741Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:44:01.484Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:44:14.379Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:44:32.162Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com
+2021-02-09T18:44:47.283Z [32minfo[39m Servidor rodando na porta 5555
+2021-02-09T18:44:52.212Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com
+ As 2021-02-09T18:45:28.898Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:45:37.702Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com
+ As 2021-02-09T18:47:47.618Z [31merror[39m usuario não encontrado
+ As 2021-02-09T18:48:36.659Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:49:52.799Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:49:55.465Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com
+ As 2021-02-09T18:50:16.508Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:50:40.593Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:50:43.087Z [32minfo[39m Login feito com sucesso por: undefined
+ As 2021-02-09T18:51:23.828Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:51:26.916Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com }
+ As 2021-02-09T18:51:52.550Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:51:55.255Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com }
+ As 2021-02-09T18:52:16.792Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:52:20.984Z [32minfo[39m Login feito com sucesso por: login }
+ As 2021-02-09T18:52:32.753Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:52:45.743Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:52:49.549Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com }
+ As 2021-02-09T18:53:28.279Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:53:30.655Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com }
+ As 2021-02-09T18:53:30.656Z [32minfo[39m Login feito com sucesso por: login }
+ As 2021-02-09T18:54:53.517Z [32minfo[39m Servidor rodando na porta 5555
+ As 2021-02-09T18:55:02.098Z [32minfo[39m Login feito com sucesso por: loginteste@gmail.com }
+ As 2021-02-09T18:55:02.100Z [32minfo[39m Login feito com sucesso por: login }
+ As 2021-02-09T19:11:30.007Z [32minfo[39m Servidor rodando na porta 5555

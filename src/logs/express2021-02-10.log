@@ -1,0 +1,50 @@
+
+Request: POST /users at Wed Feb 10 2021 10:05:59 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"name": "login de teste",
+	"email": "testetesteteste@gmail.com",
+	"password": "123456789"
+}
+Response Body:
+{
+	"name": "login de teste",
+	"email": "testetesteteste@gmail.com",
+	"password": "$2b$10$vxJzXXGZJ.lQwwpMZXy5IecYR9.1GMVXT0Jim/Ha4YdTZZlxZ7JHq",
+	"id": 14
+}
+Response: 200 175.009 ms 
+
+Request: POST /session at Wed Feb 10 2021 10:06:14 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"email": "loginteste@gmail.com",
+	"password": "123456"
+}
+Response Body:
+{
+	"id": 12,
+	"name": "login",
+	"email": "loginteste@gmail.com",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTYxMjk2MjM3NCwiZXhwIjoxNjEzMDQ4Nzc0fQ.9YmUExaIpIyYrp9BV4cp_2m1Ue-yw9a86Qpm5lCD9FA"
+}
+Response: 200 278.626 ms 
+
+Request: GET / at Wed Feb 10 2021 10:07:20 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+{
+	"message": "Hellow Word"
+}
+Response: 200 0.781 ms 
+
+Request: POST /session at Wed Feb 10 2021 10:07:39 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"email": "loginteste@gmail.com",
+	"password": "12346"
+}
+Response Body:
+{
+	"message": "usuario não encontardo"
+}
+Response: 404 288.432 ms 
