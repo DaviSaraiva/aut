@@ -48,3 +48,163 @@ Response Body:
 	"message": "usuario não encontardo"
 }
 Response: 404 288.432 ms 
+
+Request: GET / at Wed Feb 10 2021 12:29:08 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+{
+	"message": "Hellow Word"
+}
+Response: 200 6.696 ms 
+
+Request: POST /users at Wed Feb 10 2021 12:29:57 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"name": "Samuel teste santos",
+	"email": "samuelsantos@gmail.com",
+	"password": "12345858585"
+}
+Response Body:
+{
+	"name": "Samuel teste santos",
+	"email": "samuelsantos@gmail.com",
+	"password": "$2b$10$lSC1.eg.jUogUE2zUCzzsOtpcSyHeg98Hw9jNs/nwMZfKnD16Z/sq",
+	"id": 15
+}
+Response: 200 308.774 ms 
+
+Request: POST /session at Wed Feb 10 2021 12:30:44 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"email": "samuelsantos@gmail.com",
+	"password": "12345858585"
+}
+Response Body:
+{
+	"id": 15,
+	"name": "Samuel teste santos",
+	"email": "samuelsantos@gmail.com",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImlhdCI6MTYxMjk3MTA0NCwiZXhwIjoxNjEzMDU3NDQ0fQ._1Ui8v5MQFDrv5vqc3KqEjvKCIAbA0JXCUBnL2_gKdg"
+}
+Response: 200 356.641 ms 
+
+Request: POST /session at Wed Feb 10 2021 12:30:58 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"email": "samuelsantos@gmail.com",
+	"password": "1234585858"
+}
+Response Body:
+{
+	"message": "usuario não encontardo"
+}
+Response: 404 271.406 ms 
+
+Request: POST /session at Wed Feb 10 2021 12:31:30 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Request Body:
+{
+	"email": "samuelsantos@gmail.com",
+	"password": "12345858585"
+}
+Response Body:
+{
+	"id": 15,
+	"name": "Samuel teste santos",
+	"email": "samuelsantos@gmail.com",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImlhdCI6MTYxMjk3MTA5MCwiZXhwIjoxNjEzMDU3NDkwfQ.EHZwmkEWQz3R67Jz5IMXzc5MGtN6pGnHz-KzEcv_vRE"
+}
+Response: 200 275.509 ms 
+
+Request: GET /listuser at Wed Feb 10 2021 12:31:51 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+{
+	"message": "token invalido"
+}
+Response: 401 3.327 ms 
+
+Request: GET /listuser at Wed Feb 10 2021 12:32:58 GMT-0300, IP: ::1, User Agent: insomnia/2020.5.2
+Response Body:
+[
+	{
+		"id": 1,
+		"name": "Davi saraiva barros",
+		"email": "saraivadavi331@gmail.com",
+		"password": "$2b$10$uyUcpHMFqnZnpujOGRMbN.rJAtEcMRNcUiHvLJdG.ZmOKqAESQ8Ti"
+	},
+	{
+		"id": 2,
+		"name": "Marcelo ricardo",
+		"email": "marceloteste@gmail.com",
+		"password": "$2b$10$ImH2pxbdMbMQtNHvfdUERuXrhRK7IVKh2dXWfeD2q9eEhZCScyk7."
+	},
+	{
+		"id": 3,
+		"name": "Marcelo ricardo",
+		"email": "marceloteste@gmail.com",
+		"password": "$2b$10$AdW9F9J3FqHhV3qFNiEk7uH1AqCzNkpwKNkuWEGzveu1xKHYT2JEy"
+	},
+	{
+		"id": 4,
+		"name": "Kairo herege",
+		"email": "Kairoherege@gmail.com",
+		"password": "$2b$10$Bw/toZPIbj1xhL686.wEreWp2moua.4h3JLqa7SJ..864wv01UrrK"
+	},
+	{
+		"id": 5,
+		"name": "Davi teste",
+		"email": "teste@gmail.com",
+		"password": "$2b$10$4p6sv8jeqXrl9kALRVSfBuBd94EVFcnMVpvKOwvLWfqxZ4zN70c0y"
+	},
+	{
+		"id": 6,
+		"name": "Teste da silva",
+		"email": "teste20@gmail.com",
+		"password": "$2b$10$bfOa18aCiyLPXMWTQt6h9usZbsCMTPwz98Ww2iZi/45kMHenI.3dy"
+	},
+	{
+		"id": 7,
+		"name": "Shaolin Matador",
+		"em
+...
+Response: 200 128.020 ms 
+
+Request: GET / at Wed Feb 10 2021 12:33:22 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Response Body:
+{
+	"message": "Hellow Word"
+}
+Response: 304 0.989 ms 
+
+Request: GET /favicon.ico at Wed Feb 10 2021 12:33:23 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Response Body:
+{
+	"message": "Usuario não autorizdo"
+}
+Response: 401 0.374 ms 
+
+Request: GET / at Wed Feb 10 2021 12:37:11 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Response Body:
+{
+	"message": "Hellow Word"
+}
+Response: 304 1.162 ms 
+
+Request: GET /favicon.ico at Wed Feb 10 2021 12:37:11 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Response Body:
+{
+	"message": "Usuario não autorizdo"
+}
+Response: 401 0.337 ms 
+
+Request: GET / at Wed Feb 10 2021 12:37:28 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Response Body:
+{
+	"message": "Hellow Word"
+}
+Response: 304 1.047 ms 
+
+Request: GET /favicon.ico at Wed Feb 10 2021 12:37:29 GMT-0300, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Response Body:
+{
+	"message": "Usuario não autorizdo"
+}
+Response: 401 0.520 ms 
